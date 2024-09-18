@@ -1,4 +1,4 @@
-﻿namespace smallCalculator
+namespace smallCalculator
 {
     internal class Program
     {
@@ -7,11 +7,14 @@
             Console.WriteLine("hello, guys!");
             //test
             //test2
+            
 
             void LoekFunction()
             {
 
             }
+
+            Console.WriteLine("SECOND HELLO");
         }
     }
 }
