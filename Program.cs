@@ -7,6 +7,8 @@
             Console.WriteLine("hello, guys!");
             //test
             //test2
+
+            Console.WriteLine("SECOND HELLO");
         }
     }
 }
