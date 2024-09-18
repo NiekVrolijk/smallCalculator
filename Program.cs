@@ -7,14 +7,15 @@ namespace smallCalculator
             Console.WriteLine("hello, guys!");
             //test
             //test2
-            
 
-            void LoekFunction()
-            {
-
-            }
+            LoekFunction();
 
             Console.WriteLine("SECOND HELLO");
+        }
+
+        static void LoekFunction()
+        {
+            Console.WriteLine("Loek's function");
         }
     }
 }
