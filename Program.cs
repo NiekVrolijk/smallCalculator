@@ -7,6 +7,11 @@
             Console.WriteLine("hello, guys!");
             //test
             //test2
+
+            void LoekFunction()
+            {
+
+            }
         }
     }
 }
