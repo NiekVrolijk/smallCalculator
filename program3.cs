@@ -8,6 +8,14 @@ namespace smallCalculator
 {
     internal class program3
     {
-        //dont add a main
+        static void Multiply(float userInput, float multiplyAmount)
+        {
+            userInput *= multiplyAmount;
+        }
+
+        static void Divide(float userInput, float divideAmount)
+        {
+            userInput /= divideAmount;
+        }
     }
 }
