@@ -4,14 +4,35 @@ namespace smallCalculator
 {
     internal class Program2
     {
-        public float Add(float num1, float num2)
+
+        float userInput;
+        float addAmount;
+        float subtractAmount;
+
+        public void Add()
         {
-            return num1 + num2;
+            Console.Clear();
+            Console.WriteLine("What number would you like to start with?");
+            userInput = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Now how much would you like to add to " + userInput + "?");
+            addAmount = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Here's your answer!")
+            Console.WriteLine(userInput += multiplyAmount);
         }
 
-        public float Subtract(float num1, float num2)
+        public void Subtract()
         {
-            return num1 - num2;
+            Console.Clear();
+            Console.WriteLine("What number would you like to start with?");
+            userInput = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Now how much would you like to subtract from " + userInput + "?");
+            subtractAmount = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Here's your answer!")
+            Console.WriteLine(userInput -= multiplyAmount);
         }
     }
 }
