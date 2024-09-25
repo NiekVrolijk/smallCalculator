@@ -4,20 +4,14 @@ namespace smallCalculator
 {
     internal class Program2
     {
-        //dont add a main
-        public void SomeOtherFunction()
+        public float Add(float num1, float num2)
         {
-            Console.WriteLine("hello from Program2!");
-            //test
-            //test2
-
-            LoekFunction();
-            Console.WriteLine("SECOND HELLO from Program2");
+            return num1 + num2;
         }
 
-        private void LoekFunction()
+        public float Subtract(float num1, float num2)
         {
-            Console.WriteLine("Loek's function from Program2");
+            return num1 - num2;
         }
     }
 }

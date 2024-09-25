@@ -8,7 +8,6 @@ namespace smallCalculator
         {
             int playerOption;
 
-            
             Console.WriteLine("Welkom to our small calculater!");
             AskPlayerOption();
 
@@ -60,6 +59,5 @@ namespace smallCalculator
             //    [void here]();
             //}
         }
-
     }
 }
