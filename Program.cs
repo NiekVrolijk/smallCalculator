@@ -1,28 +1,63 @@
+using System.Diagnostics.CodeAnalysis;
+
 namespace smallCalculator
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-            void TestFunction()
+            int playerOption;
+
+            Console.WriteLine("Welkom to our small calculater!");
+            AskPlayerOption();
+
+            void AskPlayerOption()
             {
-                //testfunction
+                Console.WriteLine("What would you like to do?");
+                Console.WriteLine("1. adding");
+                Console.WriteLine("2. subtrackting");
+                Console.WriteLine("3. multiply");
+                Console.WriteLine("4. divide");
+                playerOption = ReadIntInput();
+                switch (playerOption)
+                {
+                    case 1:
+
+                        break;
+                    case 2:
+
+                        break;
+                    case 3:
+
+                        break;
+                    case 4:
+
+                        break;
+                }
             }
-=======
-            Console.WriteLine("hello, guys!");
-            //test
-            //test2
 
-            LoekFunction();
+            int ReadIntInput()
+            {
+                while (true)
+                {
+                    string input = Console.ReadLine();
+                    if (int.TryParse(input, out int result))
+                    {
+                        return result;
+                    }
+                    else
+                    {
+                        Console.WriteLine("ERROR; try again");
+                    }
+                }
+            }
 
-            Console.WriteLine("SECOND HELLO");
-        }
-
-        static void LoekFunction()
-        {
-            Console.WriteLine("Loek's function");
->>>>>>> a8daa8fab0535685fc4462414ed22c611e31c979
+            //else
+            //{
+            //    Console.WriteLine();
+            //    Console.WriteLine("ERROR; try again");
+            //    [void here]();
+            //}
         }
     }
 }
