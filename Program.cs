@@ -34,6 +34,7 @@ namespace smallCalculator
                         Divide();
                         break;
                 }
+                Console.ReadLine();
                 Console.Clear();
                 AskPlayerOption();
             }
