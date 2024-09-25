@@ -8,14 +8,36 @@ namespace smallCalculator
 {
     internal class program3
     {
-        static void Multiply(float userInput, float multiplyAmount)
+        float userInput;
+        float multiplyAmount;
+        float divideAmount;
+
+        Multiply();
+
+        public void Multiply()
         {
-            userInput *= multiplyAmount;
+            Console.Clear();
+            Console.WriteLine("What number would you like to multiply?");
+            userInput = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Now how much would you like to multiply that number?");
+            multiplyAmount = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Here's your answer!")
+            Console.WriteLine(userInput *= multiplyAmount);
         }
 
-        static void Divide(float userInput, float divideAmount)
+        public void Divide()
         {
-            userInput /= divideAmount;
+            Console.Clear();
+            Console.WriteLine("What number would you like to divide?");
+            userInput = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Now how much would you like to divide that number?");
+            divideAmount = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Here's your answer!")
+            Console.WriteLine(userInput *= divideAmount);
         }
     }
 }
