@@ -6,14 +6,12 @@ namespace smallCalculator
     {
         public float Add(float num1, float num2)
         {
-            float result = num1 + num2;
-            return result;
+            return num1 + num2;
         }
 
         public float Subtract(float num1, float num2)
         {
-            float result = num1 - num2;
-            return result;
+            return num1 - num2;
         }
     }
 }
