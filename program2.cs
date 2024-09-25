@@ -4,6 +4,7 @@ namespace smallCalculator
 {
     internal class Program2
     {
+        //dont add a main
         public void SomeOtherFunction()
         {
             Console.WriteLine("hello from Program2!");
